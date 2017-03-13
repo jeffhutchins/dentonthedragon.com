@@ -1,4 +1,26 @@
+// Grid styles
 .row {
-	margin-top: 4rem;
-	margin-bottom: 4rem;
+	clear: both;
+	padding: 1rem 0;
+	@include breakpoint(medium) {
+		padding: 2rem 0;
+	}
+	&.full-width {
+		max-width: 100%;
+		margin: 0;
+	}
+	&.no-padding {
+		padding: 0;
+	}
+	&.no-margin {
+		margin: 0;
+	}
+}
+
+// Base styles
+img {
+	max-width: 100%;
+}
+h1 {
+	color: $green;
 }

@@ -1,0 +1,21 @@
+-
+  name:
+    - "Home"
+  url:
+    - ""
+-
+  name: "About"
+  url:
+    - "about"
+-
+  name: "Free Stuff"
+  url:
+    - "free-stuff"
+-
+  name: "Books and Music"
+  url:
+    - "books-and-music"
+-
+  name: "Contact"
+  url:
+    - "contact"

@@ -44,7 +44,7 @@
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
-@include foundation-float-classes;
+//@include foundation-float-classes;
 @include foundation-flex-classes;
 
 @include motion-ui-transitions;
@@ -67,7 +67,14 @@ $fa-font-path: "../../assets/fonts" !default;
 
 // Base Styles
 @import "base/base";
+@import "base/forms";
 
 // Layout Styles
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
 
 // Module Styles
+@import "modules/top-bar";
+@import "modules/banner";
+@import "modules/team";

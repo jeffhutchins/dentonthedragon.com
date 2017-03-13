@@ -1,0 +1,23 @@
+---
+title: Bubbleland Imagination Co., is a growing multimedia company that specializes in imagining and developing entertaining, character-building books, novels and music for children of all ages.
+description: Bubbleland Imagination Co., is a growing multimedia company that specializes in imagining and developing entertaining, character-building products for children. Currently, our core product line features books, music, audio Tales, and videos about the whimsical world of Denton the Dragon and his friends in Bubbleland. Our products are designed to teach character-building values, like honesty, courtesy, personal responsibility, and respect for others, to young children. We also offer books we recommend by other authors.
+---
+
+<div class="row">
+  <div class="small-12 medium-12 large-10 large-offset-1 columns">
+    <h1>About</h1>
+  </div>
+</div>
+<div class="team">
+{{#each team-members}}
+  <div class="row no-padding team-member">
+    <div class="columns small-12 medium-4 large-3 large-offset-1 team-member--image">
+      <img src="{{root}}/assets/img/{{this.image}}" alt="{{this.name}}">
+    </div>
+    <div class="columns small-12 medium-8 large-7 team-member--content">
+      <h3>{{this.name}}</h3>
+      {{{this.description}}}
+    </div>
+  </div>
+{{/each}}
+</div>

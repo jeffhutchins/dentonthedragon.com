@@ -1,0 +1,25 @@
+// Default form styles
+input, button, select, textarea {
+	@include remove-outline;
+	@include transition();
+}
+select {
+	background-origin: border-box;
+	background-position: right 1rem center;
+	cursor: pointer;
+	padding: 0 2rem 0 1rem;
+}
+select[multiple=multiple] {
+	padding: 0;
+	min-height: 6rem;
+	option {
+		padding: .5rem 1rem;
+		line-height: 3rem;
+	}
+}
+
+input[type="submit"] {
+	@extend .button;
+	@extend .primary;
+	margin-right: .5rem;
+}

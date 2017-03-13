@@ -1,0 +1,10 @@
+header.header {
+	overflow: hidden;
+	background: url(../img/bg--stripes.png) repeat;
+}
+
+.logo {
+	@include breakpoint(medium) {
+		max-width: 300px;
+	}
+}

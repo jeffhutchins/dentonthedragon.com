@@ -1,0 +1,15 @@
+.top-bar {
+	background: url(../img/bg--stripes.png) repeat;
+	.row {
+		margin-top: 0;
+		margin-bottom: 0;
+		> .columns {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+	}
+	@include breakpoint(medium) {
+		background: $topbar-background;
+		padding: .5rem;
+	}
+}
