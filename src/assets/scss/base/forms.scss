@@ -17,8 +17,10 @@ select[multiple=multiple] {
 		line-height: 3rem;
 	}
 }
-
-input[type="submit"], [type="submit"] {
+[type="submit"] {
+	border-radius: $button-radius;
+}
+input[type="submit"] {
 	@extend .button;
 	@extend .primary;
 	margin-right: .5rem;
