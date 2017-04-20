@@ -3,13 +3,24 @@ title: Kids story books, novels, short stories and picture books for toddlers an
 description: Kids story books, novels, short stories and picture books for toddlers and children. Come see all of our storybooks and music for youth of all ages.
 ---
 
-<div class="row">
+<div class="row pb-0">
+  <div class="small-12 medium-12 large-12 columns text-center">
+    <h1>Contact Bubbleland Imagination Co.</h1>
+  </div>
+</div>
+<div class="row pt-0">
   <div class="small-12 medium-12 large-8 large-offset-2 columns">
-    <h1>Contact</h1>
-    <form action="https://www.elformo.com/forms/cf62552c-2fe7-45f2-88fd-8ecd7182df19" method="post" accept-charset="UTF-8">
-      <input id="email" name="email" type="email" placeholder="Email Address" />
-      <textarea  rows="5" id="comment" name="comment" placeholder="Message" ></textarea>
-      <input id="submit" name="submit" type="Submit" />
+    <form data-abide novalidate method="POST" action="https://formspree.io/hutchinsjeff@dentonthedragon.com">
+      <div data-abide-error class="alert callout" style="display: none;">
+        <p><i class="fa fa-warning"></i> There are some errors in your form.</p>
+      </div>
+      <input required type="text" name="name" placeholder="Full Name (required)">
+      <input required type="email" name="_replyto" placeholder="Email Address (required)">
+      <textarea required rows="5" name="message" placeholder="Your Message (required)"></textarea>
+      <input type="hidden" name="_subject" value="Contact Form Submission" />
+      <input type="hidden" name="_next" value="{{root}}thank-you" />
+      <input type="text" name="_gotcha" placeholder="" style="display:none" />
+      <button class="button mb-2" type="submit">Send</button>
     </form>
   </div>
 </div>
